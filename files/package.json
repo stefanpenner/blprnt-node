@@ -3,7 +3,6 @@
     "chai": "^4.0.2",
     "eslint": "^4.1.1",
     "eslint-plugin-prettier": "^2.1.2",
-    "fixturify": "^0.3.2",
     "husky": "^0.14.3",
     "lint-staged": "^4.0.1",
     "mocha": "^3.2.0",
