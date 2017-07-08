@@ -1,0 +1,36 @@
+{
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "eslint": "^4.1.1",
+    "eslint-plugin-prettier": "^2.1.2",
+    "fixturify": "^0.3.2",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.0.1",
+    "mocha": "^3.2.0",
+    "mocha-eslint": "^3.0.1",
+    "prettier": "^1.5.2"
+  },
+  "scripts": {
+    "test": "mocha tests",
+    "test:debug": "mocha debug tests",
+    "lint": "eslint *.js lib/**/*.js tests/**/*-test.js",
+    "lint:fix": "eslint --fix *.js lib/**/*.js tests/**/*-test.js",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": ["eslint --fix", "git add"]
+  },
+  "name": "<%= name %>",
+  "version": "0.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanpenner/xxxx.git"
+  },
+  "author": "Stefan Penner <stefan.penner@gmail.com>",
+  "description": "",
+  "license": "MIT"
+}
