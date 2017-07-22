@@ -1,17 +1,16 @@
 {
   "devDependencies": {
-    "chai": "^4.0.2",
     "eslint": "^4.1.1",
     "eslint-plugin-prettier": "^2.1.2",
     "husky": "^0.14.3",
     "lint-staged": "^4.0.1",
-    "mocha": "^3.2.0",
-    "mocha-eslint": "^3.0.1",
+    "qunitjs": "^2.4.0",
+    "qunit-eslint": "^1.0.0",
     "prettier": "^1.5.2"
   },
   "scripts": {
-    "test": "mocha tests",
-    "test:debug": "mocha debug tests",
+    "test": "qunit tests",
+    "test:debug": "node debug $(which qunit) tests",
     "lint": "eslint *.js lib/**/*.js tests/**/*-test.js",
     "lint:fix": "eslint --fix *.js lib/**/*.js tests/**/*-test.js",
     "precommit": "lint-staged"
