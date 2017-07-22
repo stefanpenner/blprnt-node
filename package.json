@@ -1,6 +1,6 @@
 {
   "name": "blprnt-node",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "index.js",
   "repository": "https://github.com/stefanpenner/blprnt-node",
   "author": "Stefan Penner <Stefan.penner@gmail.com>",
@@ -24,6 +24,9 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": ["eslint --fix", "git add"]
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
