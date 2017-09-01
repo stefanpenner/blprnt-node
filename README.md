@@ -9,7 +9,7 @@ Stefs opinionated node module blueprint
 ##  Usage
 
 ```sh
-ember -b blprnt-node <module-name>
+ember new -b blprnt-node <module-name>
 ```
 
 ### Highlights:
