@@ -5,6 +5,9 @@
   "repository": "https://github.com/stefanpenner/blprnt-node",
   "author": "Stefan Penner <Stefan.penner@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "ember-blueprint"
+  ],
   "dependencies": {
     "chai": "^4.0.2",
     "ember-cli-string-utils": "^1.1.0",
